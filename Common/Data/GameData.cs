@@ -34,6 +34,7 @@ public static class GameData
     public static Dictionary<uint, BossPvpBossExcel> BossPvpBossData { get; private set; } = [];
     public static Dictionary<uint, BossPvpNumExcel> BossPvpNumData { get; private set; } = [];
     public static Dictionary<uint, ClimbTowerTimeExcel> ClimbTowerTimeData { get; private set; } = [];
+    public static Dictionary<uint, ClimbTowerDiffExcel> ClimbTowerDiffData { get; private set; } = [];
     public static Dictionary<uint, Dictionary<int, ClimbTowerAwardExcel>> ClimbTowerAwardData { get; private set; } = [];
     public static Dictionary<uint, ClimbTowerLevelOrderExcel> ClimbTowerLevelOrderData { get; private set; } = [];
     public static Dictionary<uint, TowerLevelExcel> TowerLevelData { get; private set; } = [];
