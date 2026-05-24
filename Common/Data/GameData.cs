@@ -54,6 +54,8 @@ public static class GameData
     public static Dictionary<uint, VirCaptureSeasonExcel> VirCaptureSeasonData { get; private set; } = [];
     public static Dictionary<uint, VirCaptureTrialTimeExcel> VirCaptureTrialTimeData { get; private set; } = [];
     public static Dictionary<uint, VirCaptureCaptureRegionExcel> VirCaptureCaptureRegionData { get; private set; } = [];
+    public static Dictionary<uint, VirCaptureLevelListExcel> VirCaptureLevelListData { get; private set; } = [];
+    public static Dictionary<ulong, MonsterCardExcel> MonsterCardData { get; private set; } = [];
 }
 
 public static class GameResourceTemplateId
